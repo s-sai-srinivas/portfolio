@@ -79,7 +79,7 @@ export const portfolio = {
       description:
         "Full-stack school platform — NestJS backend with 10 modules (students, attendance, fees, homework, notices, reports, SMS), JWT + Passport auth, and role-based dashboards for Admin/Teacher/Parent.",
       tech: ["NestJS", "Next.js 16", "Prisma", "PostgreSQL", "Jest"],
-      live: "https://github.com/s-sai-srinivas/SchoolManagement",
+      live: "https://school-management-omega-olive.vercel.app",
       github: "https://github.com/s-sai-srinivas/SchoolManagement",
       gradient: "from-blue-500 to-cyan-400",
     },
@@ -88,7 +88,7 @@ export const portfolio = {
       description:
         "Amazon-style e-commerce simulator — real catalog data, full browse→cart→checkout→order-tracking loop, wishlist, and Playwright e2e coverage.",
       tech: ["Next.js 16", "TypeScript", "Prisma", "Zustand", "Playwright"],
-      live: "https://github.com/s-sai-srinivas/EcomSim",
+      live: "https://ecomsim-ecru.vercel.app",
       github: "https://github.com/s-sai-srinivas/EcomSim",
       gradient: "from-indigo-500 to-sky-400",
     },
@@ -97,7 +97,7 @@ export const portfolio = {
       description:
         "AI-powered proofreading platform with a configurable rules engine — Gemini AI corrections, JWT auth, admin panel, and a full Vitest-covered API surface.",
       tech: ["Next.js 16", "Prisma", "PostgreSQL", "Gemini AI", "Vitest"],
-      live: "https://github.com/s-sai-srinivas/ProofReader",
+      live: "https://proofreader-liard.vercel.app",
       github: "https://github.com/s-sai-srinivas/ProofReader",
       gradient: "from-blue-500 to-cyan-400",
     },
@@ -106,7 +106,7 @@ export const portfolio = {
       description:
         "Mobile-first AI coaching PWA for fitness trainers — dual trainer/athlete portals, custom JWT auth, offline IndexedDB sync, and progress photo tracking.",
       tech: ["Next.js 16", "TypeScript", "Prisma", "PostgreSQL", "PWA"],
-      live: "https://github.com/s-sai-srinivas/Trainova",
+      live: "https://trainova-theta.vercel.app",
       github: "https://github.com/s-sai-srinivas/Trainova",
       gradient: "from-cyan-500 to-teal-400",
     },
