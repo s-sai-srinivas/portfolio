@@ -46,7 +46,7 @@ export const portfolio = {
     },
     {
       category: "Backend",
-      items: ["Go", "Node.js", "REST APIs", "JWT Auth", "RBAC", "Rate Limiting", "Multi-Agent AI"],
+      items: ["Go", "Node.js", "Python", "REST APIs", "JWT Auth", "RBAC", "Rate Limiting", "Multi-Agent AI"],
     },
     {
       category: "Database & Infra",
@@ -54,7 +54,7 @@ export const portfolio = {
     },
     {
       category: "DevOps & Tools",
-      items: ["Docker", "Git", "GitHub Actions", "Vitest", "Swift", "Judge0", "Monorepos"],
+      items: ["Docker", "Git", "GitHub Actions", "Vitest", "Swift", "Judge0", "scikit-learn", "Monorepos"],
     },
   ],
 
@@ -102,6 +102,15 @@ export const portfolio = {
       gradient: "from-sky-500 to-blue-500",
     },
     {
+      title: "Fake Review Detection — NLP/ML",
+      description:
+        "MSc dissertation project — an ML pipeline detecting fake reviews on healthcare platforms. TF-IDF + lemmatized NLP preprocessing, comparing Logistic Regression, Naive Bayes and SVM (best: 0.83 F1).",
+      tech: ["Python", "scikit-learn", "NLTK", "TF-IDF", "SVM"],
+      live: "https://github.com/s-sai-srinivas/fake-healthcare-review-detection",
+      github: "https://github.com/s-sai-srinivas/fake-healthcare-review-detection",
+      gradient: "from-teal-500 to-emerald-400",
+    },
+    {
       title: "TuneTorrent",
       description:
         "iOS music, torrent and file manager — SwiftData persistence, Live Activities, sideloadable via iloader, with a CI pipeline that builds the IPA.",
@@ -120,6 +129,15 @@ export const portfolio = {
       points: [
         "Training across the full stack — frontend fundamentals, JavaScript, React, and backend concepts.",
         "Built and shipped multiple hands-on projects: quizzes, API-driven apps, auth flows and games.",
+      ],
+    },
+    {
+      company: "University of East London",
+      role: "MSc Computer Science",
+      period: "2025 — 2026",
+      points: [
+        "Dissertation: AI-based detection of fake reviews in online healthcare platforms using NLP + ML (SVM, LR, NB comparison).",
+        "Supervised by Dr. Zainb Dawod.",
       ],
     },
     {
