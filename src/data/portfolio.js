@@ -70,7 +70,7 @@ export const portfolio = {
       description:
         "Production-oriented coding education platform — multi-agent AI course/quiz/contest generation, Judge0 code execution, JPlag plagiarism detection, and 6-role RBAC dashboards.",
       tech: ["Go", "Gin", "React", "PostgreSQL", "Redis", "Docker"],
-      live: "https://github.com/s-sai-srinivas/Smart-Academy",
+      live: "https://smart-academy-eight.vercel.app",
       github: "https://github.com/s-sai-srinivas/Smart-Academy",
       gradient: "from-blue-600 to-teal-500",
     },
@@ -124,7 +124,7 @@ export const portfolio = {
       description:
         "MSc dissertation project — an ML pipeline detecting fake reviews on healthcare platforms. TF-IDF + lemmatized NLP preprocessing, comparing Logistic Regression, Naive Bayes and SVM (best: 0.83 F1).",
       tech: ["Python", "scikit-learn", "NLTK", "TF-IDF", "SVM"],
-      live: "https://github.com/s-sai-srinivas/fake-healthcare-review-detection",
+      live: "https://fake-review-detector-tau.vercel.app",
       github: "https://github.com/s-sai-srinivas/fake-healthcare-review-detection",
       gradient: "from-teal-500 to-emerald-400",
     },
