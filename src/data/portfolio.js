@@ -34,7 +34,7 @@ export const portfolio = {
 
   stats: [
     { value: 24, suffix: "+", label: "Repositories" },
-    { value: 5, suffix: "", label: "Major Projects" },
+    { value: 8, suffix: "", label: "Major Projects" },
     { value: 3, suffix: "", label: "Certifications" },
     { value: 100, suffix: "%", label: "Commitment" },
   ],
@@ -46,7 +46,7 @@ export const portfolio = {
     },
     {
       category: "Backend",
-      items: ["Go", "Node.js", "Python", "REST APIs", "JWT Auth", "RBAC", "Rate Limiting", "Multi-Agent AI"],
+      items: ["Go", "Node.js", "NestJS", "Python", "REST APIs", "JWT Auth", "RBAC", "Multi-Agent AI"],
     },
     {
       category: "Database & Infra",
@@ -61,7 +61,7 @@ export const portfolio = {
   // Row of tech that scrolls in the marquee strip
   marquee: [
     "Go", "React", "Next.js", "TypeScript", "PostgreSQL", "Prisma",
-    "Docker", "Supabase", "Redis", "Tailwind", "Gemini AI", "Swift",
+    "Docker", "Supabase", "Redis", "Tailwind", "Gemini AI", "NestJS",
   ],
 
   projects: [
@@ -73,6 +73,24 @@ export const portfolio = {
       live: "https://github.com/s-sai-srinivas/Smart-Academy",
       github: "https://github.com/s-sai-srinivas/Smart-Academy",
       gradient: "from-blue-600 to-teal-500",
+    },
+    {
+      title: "School Management System",
+      description:
+        "Full-stack school platform — NestJS backend with 10 modules (students, attendance, fees, homework, notices, reports, SMS), JWT + Passport auth, and role-based dashboards for Admin/Teacher/Parent.",
+      tech: ["NestJS", "Next.js 16", "Prisma", "PostgreSQL", "Jest"],
+      live: "https://github.com/s-sai-srinivas/SchoolManagement",
+      github: "https://github.com/s-sai-srinivas/SchoolManagement",
+      gradient: "from-blue-500 to-cyan-400",
+    },
+    {
+      title: "EcomSim",
+      description:
+        "Amazon-style e-commerce simulator — real catalog data, full browse→cart→checkout→order-tracking loop, wishlist, and Playwright e2e coverage.",
+      tech: ["Next.js 16", "TypeScript", "Prisma", "Zustand", "Playwright"],
+      live: "https://github.com/s-sai-srinivas/EcomSim",
+      github: "https://github.com/s-sai-srinivas/EcomSim",
+      gradient: "from-indigo-500 to-sky-400",
     },
     {
       title: "ProofReader",
