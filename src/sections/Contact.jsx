@@ -71,7 +71,9 @@ export default function Contact() {
                   { icon: GithubIcon, href: portfolio.socials.github },
                   { icon: LinkedinIcon, href: portfolio.socials.linkedin },
                   { icon: TwitterIcon, href: portfolio.socials.twitter },
-                ].map(({ icon: Icon, href }, i) => (
+                ]
+                  .filter(({ href }) => href)
+                  .map(({ icon: Icon, href }, i) => (
                   <motion.a
                     key={i}
                     href={href}

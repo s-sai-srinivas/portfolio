@@ -16,15 +16,14 @@ export const portfolio = {
     "Backend Developer",
     "Problem Solver",
   ],
-  email: "your.email@gmail.com", // TODO: add your real email
+  email: "iphonesri708@gmail.com", // TODO: confirm this is the right email
   location: "Hyderabad, India",
-  resumeUrl: "#", // TODO: link to your resume PDF
+  resumeUrl: "/resume.pdf",
   availability: "Open to opportunities",
 
   socials: {
     github: "https://github.com/s-sai-srinivas",
     linkedin: "https://www.linkedin.com/in/s-sai-srinivas/",
-    twitter: "https://x.com/", // TODO: add your X/Twitter or remove
   },
 
   about: [
@@ -115,7 +114,7 @@ export const portfolio = {
       description:
         "QR digital business hub for restaurants — one QR, one page, every link. Public business hub, menu management, and share-ready onboarding.",
       tech: ["Next.js 15", "Supabase", "Tailwind", "shadcn/ui"],
-      live: "https://github.com/s-sai-srinivas/ScanConnect",
+      live: "https://scanconnect-seven.vercel.app",
       github: "https://github.com/s-sai-srinivas/ScanConnect",
       gradient: "from-sky-500 to-blue-500",
     },

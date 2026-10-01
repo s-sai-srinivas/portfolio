@@ -48,8 +48,8 @@ const socialIcons = [
   { icon: GithubIcon, href: portfolio.socials.github },
   { icon: LinkedinIcon, href: portfolio.socials.linkedin },
   { icon: TwitterIcon, href: portfolio.socials.twitter },
-  { icon: Mail, href: `mailto:${portfolio.email}` },
-];
+  { icon: Mail, href: portfolio.email ? `mailto:${portfolio.email}` : null },
+].filter((item) => item.href);
 
 export default function Hero() {
   const typed = useTypewriter(portfolio.roles);
