@@ -45,10 +45,10 @@ const item = {
 };
 
 const socialIcons = [
-  { icon: GithubIcon, href: portfolio.socials.github },
-  { icon: LinkedinIcon, href: portfolio.socials.linkedin },
-  { icon: TwitterIcon, href: portfolio.socials.twitter },
-  { icon: Mail, href: portfolio.email ? `mailto:${portfolio.email}` : null },
+  { icon: GithubIcon, href: portfolio.socials.github, label: "GitHub" },
+  { icon: LinkedinIcon, href: portfolio.socials.linkedin, label: "LinkedIn" },
+  { icon: TwitterIcon, href: portfolio.socials.twitter, label: "Twitter" },
+  { icon: Mail, href: portfolio.email ? `mailto:${portfolio.email}` : null, label: "Email" },
 ].filter((item) => item.href);
 
 export default function Hero() {
@@ -87,8 +87,9 @@ export default function Hero() {
         <motion.h2
           variants={item}
           className="font-display mt-5 h-10 text-2xl font-semibold text-slate-700 md:h-12 md:text-3xl"
+          aria-label={portfolio.roles.join(", ")}
         >
-          <span className="typing-caret text-gradient">{typed}</span>
+          <span className="typing-caret text-gradient" aria-hidden="true">{typed}</span>
         </motion.h2>
 
         <motion.p
@@ -128,12 +129,13 @@ export default function Hero() {
           variants={item}
           className="mt-10 flex items-center justify-center gap-3"
         >
-          {socialIcons.map(({ icon: Icon, href }, i) => (
+          {socialIcons.map(({ icon: Icon, href, label }, i) => (
             <motion.a
               key={i}
               href={href}
               target="_blank"
               rel="noreferrer"
+              aria-label={label}
               whileHover={{ y: -4, scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className="glass rounded-xl p-3 text-slate-600 transition-colors hover:text-blue-600"

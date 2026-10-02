@@ -68,17 +68,18 @@ export default function Contact() {
 
               <div className="mt-8 flex gap-3">
                 {[
-                  { icon: GithubIcon, href: portfolio.socials.github },
-                  { icon: LinkedinIcon, href: portfolio.socials.linkedin },
-                  { icon: TwitterIcon, href: portfolio.socials.twitter },
+                  { icon: GithubIcon, href: portfolio.socials.github, label: "GitHub" },
+                  { icon: LinkedinIcon, href: portfolio.socials.linkedin, label: "LinkedIn" },
+                  { icon: TwitterIcon, href: portfolio.socials.twitter, label: "Twitter" },
                 ]
                   .filter(({ href }) => href)
-                  .map(({ icon: Icon, href }, i) => (
+                  .map(({ icon: Icon, href, label }, i) => (
                   <motion.a
                     key={i}
                     href={href}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label={label}
                     whileHover={{ y: -4, scale: 1.1 }}
                     className="glass rounded-xl p-3 text-slate-600 hover:text-blue-600"
                   >
