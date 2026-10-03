@@ -28,13 +28,25 @@ export default function Projects() {
                 ease: [0.22, 1, 0.36, 1],
               }}
               style={{ perspective: 1000 }}
+              className={p.featured ? "md:col-span-2" : ""}
             >
-              <TiltCard className="glass-strong h-full overflow-hidden rounded-3xl">
+              <TiltCard
+                className={`glass-strong h-full overflow-hidden rounded-3xl ${
+                  p.featured ? "md:grid md:grid-cols-5" : ""
+                }`}
+              >
                 {/* gradient header */}
                 <div
-                  className={`relative h-44 bg-gradient-to-br ${p.gradient} p-6`}
+                  className={`relative bg-gradient-to-br ${p.gradient} p-6 ${
+                    p.featured ? "h-44 md:col-span-2 md:h-auto" : "h-44"
+                  }`}
                 >
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.4),transparent_55%)]" />
+                  {p.featured && (
+                    <span className="absolute left-5 top-5 rounded-full bg-white/25 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-sm">
+                      Featured
+                    </span>
+                  )}
                   <FolderGit2
                     className="absolute bottom-5 left-6 text-white/90"
                     size={36}
@@ -63,7 +75,7 @@ export default function Projects() {
                   </div>
                 </div>
 
-                <div className="p-7">
+                <div className={`p-7 ${p.featured ? "md:col-span-3" : ""}`}>
                   <h3 className="font-display text-xl font-bold text-slate-800 transition-colors group-hover:text-blue-600">
                     {p.title}
                   </h3>

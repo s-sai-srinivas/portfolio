@@ -60,27 +60,19 @@ export const portfolio = {
   // Row of tech that scrolls in the marquee strip
   marquee: [
     "Go", "React", "Next.js", "TypeScript", "PostgreSQL", "Prisma",
-    "Docker", "Supabase", "Redis", "Tailwind", "Gemini AI", "NestJS",
+    "Docker", "Supabase", "Redis", "Tailwind", "Groq", "NestJS",
   ],
 
   projects: [
     {
       title: "Smart Academy",
       description:
-        "Production-oriented coding education platform — multi-agent AI course/quiz/contest generation, Judge0 code execution, JPlag plagiarism detection, and 6-role RBAC dashboards.",
+        "Production-oriented coding education platform — a multi-agent AI pipeline (Extractor → Architect → Writer → Quizmaster → Critic) generates courses, quizzes and contests from lesson plans. Judge0 code execution, JPlag plagiarism detection, Redis job queue, Prometheus metrics, and 6-role RBAC dashboards.",
       tech: ["Go", "Gin", "React", "PostgreSQL", "Redis", "Docker"],
       live: "https://smart-academy-eight.vercel.app",
       github: "https://github.com/s-sai-srinivas/Smart-Academy",
       gradient: "from-blue-600 to-teal-500",
-    },
-    {
-      title: "School Management System",
-      description:
-        "Full-stack school platform — NestJS backend with 10 modules (students, attendance, fees, homework, notices, reports, SMS), JWT + Passport auth, and role-based dashboards for Admin/Teacher/Parent.",
-      tech: ["NestJS", "Next.js 16", "Prisma", "PostgreSQL", "Jest"],
-      live: "https://school-management-omega-olive.vercel.app",
-      github: "https://github.com/s-sai-srinivas/SchoolManagement",
-      gradient: "from-blue-500 to-cyan-400",
+      featured: true,
     },
     {
       title: "EcomSim",
@@ -92,10 +84,19 @@ export const portfolio = {
       gradient: "from-indigo-500 to-sky-400",
     },
     {
+      title: "School Management System",
+      description:
+        "Full-stack school platform — NestJS backend with 10 modules (students, attendance, fees, homework, notices, reports, SMS), JWT + Passport auth, and role-based dashboards for Admin/Teacher/Parent.",
+      tech: ["NestJS", "Next.js 16", "Prisma", "PostgreSQL", "Jest"],
+      live: "https://school-management-omega-olive.vercel.app",
+      github: "https://github.com/s-sai-srinivas/SchoolManagement",
+      gradient: "from-blue-500 to-cyan-400",
+    },
+    {
       title: "ProofReader",
       description:
-        "AI-powered proofreading platform with a configurable rules engine — Gemini AI corrections, JWT auth, admin panel, and a full Vitest-covered API surface.",
-      tech: ["Next.js 16", "Prisma", "PostgreSQL", "Gemini AI", "Vitest"],
+        "AI-powered proofreading platform with a configurable rules engine — Groq-powered corrections, JWT auth, admin panel, and a full Vitest-covered API surface.",
+      tech: ["Next.js 16", "Prisma", "PostgreSQL", "Groq", "Vitest"],
       live: "https://proofreader-liard.vercel.app",
       github: "https://github.com/s-sai-srinivas/ProofReader",
       gradient: "from-blue-500 to-cyan-400",
