@@ -143,7 +143,7 @@ export const portfolio = {
     {
       company: "AccioJob",
       role: "Full-Stack Development Apprentice",
-      period: "2022 — Present",
+      period: "Mar 2022 — Present · Remote",
       points: [
         "Training across the full stack — frontend fundamentals, JavaScript, React, and backend concepts.",
         "Built and shipped multiple hands-on projects: quizzes, API-driven apps, auth flows and games.",
@@ -165,6 +165,15 @@ export const portfolio = {
       points: [
         "Postgraduate degree in Computer Science — data structures, algorithms, DBMS and software engineering.",
         "Certified in Java, JavaScript and HTML/CSS/Bootstrap via Udemy alongside coursework.",
+      ],
+    },
+    {
+      company: "Osmania University",
+      role: "BSc Computer & Information Sciences",
+      period: "2018 — 2021",
+      points: [
+        "Undergraduate degree in computer and information sciences — CGPA 8.5.",
+        "Built the programming and math foundation for the postgraduate work that followed.",
       ],
     },
   ],
