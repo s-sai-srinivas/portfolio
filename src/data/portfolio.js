@@ -7,19 +7,19 @@ export const portfolio = {
   firstName: "Sai",
   role: "Full-Stack Developer",
   tagline:
-    "I build end-to-end web experiences — from responsive UIs to APIs and the databases behind them.",
+    "Full-stack developer with team-lead experience — I take products from a blank file to production: the UI, the API, and the data underneath.",
   // Roles that cycle in the hero typing animation
   roles: [
     "Full-Stack Developer",
+    "Team Lead",
     "Software Engineer",
-    "Frontend Developer",
     "Backend Developer",
     "Problem Solver",
   ],
-  email: "iphonesri708@gmail.com", // TODO: confirm this is the right email
-  location: "Hyderabad, India",
+  email: "s.saisrinivas28@gmail.com",
+  location: "London, United Kingdom",
   resumeUrl: "/resume.pdf",
-  availability: "Open to opportunities",
+  availability: "Open to full-stack & SDE roles in the UK",
 
   socials: {
     github: "https://github.com/s-sai-srinivas",
@@ -27,8 +27,8 @@ export const portfolio = {
   },
 
   about: [
-    "I'm a full-stack developer and MCA graduate from Nizam College, Hyderabad — disciplined, energetic, and big on ownership. I like taking a feature from a blank file all the way to production: the interface, the API, and the data model underneath.",
-    "I trained as an apprentice at AccioJob, where I sharpened my frontend and JavaScript fundamentals, and I keep building — quizzes, trackers, auth flows, even iOS tooling. Curious by default, structured by habit.",
+    "I'm a full-stack developer with team-lead experience — at Aurelia Academy I led a development team while building and shipping features across the stack with React, Node.js and JavaScript. I'm completing an MSc in Computer Science at the University of East London (graduating January 2027), and hold an MCA from Nizam College.",
+    "I've shipped 8 live products spanning Go, Next.js, NestJS, Python and even iOS — from a multi-agent AI education platform to a pixel-faithful e-commerce simulator. Now looking for full-stack developer and SDE roles in the UK.",
   ],
 
   stats: [
@@ -141,27 +141,36 @@ export const portfolio = {
 
   experience: [
     {
-      company: "AccioJob",
-      role: "Full-Stack Development Apprentice",
-      period: "Mar 2022 — Present · Remote",
+      company: "Aurelia Academy",
+      role: "Team Lead & Full-Stack Developer",
+      period: "Jun 2026 — Sep 2026 · Remote",
       points: [
-        "Training across the full stack — frontend fundamentals, JavaScript, React, and backend concepts.",
-        "Built and shipped multiple hands-on projects: quizzes, API-driven apps, auth flows and games.",
+        "Led a development team while building and shipping full-stack features with React, Node.js and JavaScript.",
+        "Owned delivery end to end — task breakdown, code review, and unblocking teammates.",
       ],
     },
     {
       company: "University of East London",
       role: "MSc Computer Science",
-      period: "2025 — 2026",
+      period: "May 2025 — Jan 2027",
       points: [
         "Dissertation: AI-based detection of fake reviews in online healthcare platforms using NLP + ML (SVM, LR, NB comparison).",
         "Supervised by Dr. Zainb Dawod.",
       ],
     },
     {
+      company: "AccioJob",
+      role: "Full-Stack Development Trainee",
+      period: "Mar 2022 — Dec 2024 · Remote",
+      points: [
+        "Completed project-based full-stack development training covering HTML, CSS, JavaScript and React.",
+        "Built and shipped multiple hands-on projects: quizzes, API-driven apps, auth flows and games.",
+      ],
+    },
+    {
       company: "Nizam College, Hyderabad",
       role: "Master of Computer Applications (MCA)",
-      period: "2022 — 2024",
+      period: "Nov 2022 — Sep 2024",
       points: [
         "Postgraduate degree in Computer Science — data structures, algorithms, DBMS and software engineering.",
         "Certified in Java, JavaScript and HTML/CSS/Bootstrap via Udemy alongside coursework.",
